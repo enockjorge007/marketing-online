@@ -1,0 +1,326 @@
+/*
+
+TemplateMo 577 Liberty Market
+
+https://templatemo.com/tm-577-liberty-market
+
+*/
+
+/* ---------------------------------------------
+Table of contents
+------------------------------------------------
+01. font & reset css
+02. reset
+03. global styles
+04. header
+05. banner
+06. features
+07. testimonials
+08. contact
+09. footer
+
+--------------------------------------------- */
+/* 
+---------------------------------------------
+font & reset css
+--------------------------------------------- 
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900");
+/* 
+---------------------------------------------
+reset
+--------------------------------------------- 
+*/
+
+
+
+
+
+
+
+
+
+/* 
+---------------------------------------------
+Da uma olhada aqui no posicionamento do botao roxo
+--------------------------------------------- 
+*/
+
+
+
+
+
+
+/* 
+---------------------------------------------
+Global Styles
+--------------------------------------------- 
+*/
+
+.titulodoproduto{
+  color: #7453fc;
+  
+}
+
+::-moz-selection {
+  background: #f3f3f3;
+  color: #60ff04;
+}
+
+.border-button a {
+  font-size: 14px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #7453fc;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.border-button a:after {
+  width: 78%;
+  height: 2px;
+  background-color: #fff;
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.border-button a:hover {
+  background-color: #7453fc;
+  color: #fff;
+}
+
+.main-button a {
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #0004da;
+  border: 1px solid #7453fc;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-button a:after {
+  width: 78%;
+  height: 2px;
+  background-color: #fff;
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.main-button a:hover {
+  background-color: #fff;
+  color: #7453fc;
+  border: 1px solid #fff;
+}
+
+
+
+.section-heading {
+  position: relative;
+  z-index: 2;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.section-heading .line-dec {
+  width: 100px;
+  height: 2px;
+  background-color: #e2e0e7;
+  margin: 0 auto 30px auto;
+}
+
+.section-heading h2 {
+  margin-top: 10px;
+  line-height: 36px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: rgb(1,41,112);
+}
+
+.section-heading h2 em {
+  color: #4154F1;
+  font-style: normal;
+}
+
+/* 
+---------------------------------------------
+Pre-loader Style
+--------------------------------------------- 
+*/
+
+
+
+
+/* 
+---------------------------------------------
+Header Style
+--------------------------------------------- 
+*/
+
+
+
+
+/* 
+---------------------------------------------
+Banner Style
+--------------------------------------------- 
+*/
+
+
+
+
+
+
+
+/* 
+---------------------------------------------
+Categories & Collections Style
+--------------------------------------------- 
+*/
+
+
+.lados {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.collections {
+  margin-top: 140px;
+  
+  
+}
+
+.collections .item img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+/* 
+---------------------------------------------
+parte de baixo do carrosel
+--------------------------------------------- 
+*/
+.collections .item .down-content {
+  background-color: #ffffff;
+  border: 1px solid #4154f1;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-color: #f3f3f3;
+  padding: 30px;
+}
+
+.collections .item .down-content h4 {
+  font-size: 20px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.collections .item {
+  padding-bottom: 60px;
+}
+/* 
+---------------------------------------------
+Categories & Collections Style cores
+--------------------------------------------- 
+*/
+.collections .item span {
+  color: #0fe60fb9;
+  display: inline-block;
+  width: 48%;
+  font-size: 15px;
+}
+
+.collections .item span strong {
+  font-size: 20px;
+}
+
+.collections .item span.category {
+  text-align: right;
+}
+
+.collections .item .main-button a {
+  width: 100%;
+  text-align: center;
+}
+
+.collections .item .main-button {
+  margin-top: 20px;
+  margin-bottom: -60px;
+}
+
+.collections .item .main-button a:hover {
+  background-color: #4153f1d0;
+  border: 1px solid #fff;
+  color: #ffffff;
+}
+
+.collections .owl-nav {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50px);
+  text-align: center;
+}
+
+.collections .owl-nav .owl-prev {
+  position: absolute;
+  left: -23px;
+}
+
+.collections .owl-nav .owl-next {
+  position: absolute;
+  right: -23px;
+}
+
+.collections .owl-nav .owl-prev span,
+.collections .owl-nav .owl-next span  {
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 24px;
+  display: inline-block;
+  color: #7453fc;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 1;
+  transition: all .3s;
+}
+
+.collections .owl-nav .owl-prev span:hover,
+.collections .owl-nav .owl-next span:hover {
+  opacity: 1;
+}
+
+.item{
+  color: rgb(0, 0, 0);
+}
+
+
+/* 
+---------------------------------------------
+Create NFT Style
+--------------------------------------------- 
+*/
+
